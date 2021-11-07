@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Count Down</title>
+</head>
+<body>
+				<div class="mainbody">
+    <h1 style="justify-cintent:center;font-size:60px;">Count Down </h1>
+    
+    <div id="container">
+    <p id="hour-label"style="color:springgreen;font-size:50px"class="label">HOUR/</p><p id="min-label"style="color:crimson;font-size:50px" class="label">MINUTE/</p><p id="sec-label"style="color:gold;font-size:50px" class="label">SECOND</p>
+        <input id="hour" type="number" max="99" min="0" value="0" class="time"><p id="p1" class="semicolon">:</p><input id="minute" type="number" max="60" min="0" value="0" class="time"><p id="p2" class="semicolon">:</p><input id="sec" type="number" max="60" min="0" value="0" class="time">
+        <!-- buttons -->
+    <button id="start"style="background-color:tomato;border:none;border-radius:25px" class="btn">Start</button>
+   <button id="reset"style="background-color:blue;border:none;border-radius:25px;;"class="btn">Reset</button>
+ </div>
+ <p style="color:white;font-size:41px;font-weight:900px">Set time Inplace of 0 and Press Start Button</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
